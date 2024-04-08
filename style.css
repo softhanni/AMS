@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(2, 202, 202);
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size:2.5em;
+}
+header a{
+    text-decoration: none;
+    color: #f3f3f3;
+}
+.heading{
+   font-size: 3em;
+   text-align: center;
+   margin-top: 20px;
+}
+
+.container{
+    /* background-color: rgb(243, 206, 240); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+    
+}
+
+.signin{
+    border: 2px solid rgb(11, 236, 105);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    align-items: center;
+}
+input{
+    width: 80%;
+    height: 40px;
+    /* border: none; */
+    border-radius: 10px;
+    padding-left: 15px;
+    font-size: 1.3em;
+    border: .5px solid black;
+}
+
+.loginBtn{
+    background-color: rgb(3, 141, 15);
+    height: 40px;
+    width: 130px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.reg{
+    font-size: 1.3em;
+}
+.reg a{
+    text-decoration: none;
+}
+span{
+    font-size: 3em;
+}
+
+/* login page End  */
+
+.regForm{
+    /* background-color: aqua; */
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+  margin-top: 10px;
+}
+.regBtn{
+    background-color: rgb(5, 132, 236);
+    font-size: 1.6em;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+/* registration end  */
+
+.admin{
+    margin: auto;
+    margin-top: 30px;
+    width: 80%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+align-items: center;
+}
+
+/* .adduser{
+    width: 400px;
+} */
+
+#name{
+    width: 500px;
+}
+#regnum{
+    width: 250px;
+}
+.add{
+    background-color: rgb(2, 93, 153);
+    width: 150px;
+    height: 42px;
+    font-size: 1.8em;
+    border: none;
+    border-radius: 10px;
+    color: white;
+
+}
+.users{
+    /* background-color: aqua; */
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    /* border: 2px solid; */
+}
+.nouser{
+    text-align: center;
+    font-size: 2em;
+}
+
+/* users  */
+
+.username{
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+    font-size: 1.4em;
+    /* border: 1px solid; */
+    padding: 8px;
+}
+
+
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  th,
+  td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #dddddd;
+    /* border: 1px solid; */
+  }
+  
+  th {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  tr:last-of-type {
+    border-bottom: 2px solid #009879;
+  }
+  
+  .present, .absent {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .present[type="button"]:first-of-type {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+  
+  .absent[type="button"]:last-of-type {
+    background-color: #f44336; /* Red */
+    color: white;
+  }
+  
